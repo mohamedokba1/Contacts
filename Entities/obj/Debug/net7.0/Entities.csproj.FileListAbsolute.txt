@@ -1,0 +1,28 @@
+D:\.NET Core (Udemy)\12.xUnit\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\.NET Core (Udemy)\12.xUnit\Entities\bin\Debug\net7.0\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\Entities\bin\Debug\net7.0\Entities.pdb
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.pdb
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\ref\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+D:\.NET Core (Udemy)\12.xUnit\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+D:\.NET Core (Udemy)\Contacts Manager\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\.NET Core (Udemy)\Contacts Manager\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+D:\.NET Core (Udemy)\Contacts Manager\Entities\bin\Debug\net7.0\Entities.dll
+D:\.NET Core (Udemy)\Contacts Manager\Entities\bin\Debug\net7.0\Entities.pdb
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.dll
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.pdb
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+D:\.NET Core (Udemy)\Contacts Manager\Entities\obj\Debug\net7.0\ref\Entities.dll

@@ -1,0 +1,15 @@
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\bin\Release\net7.0\ServicesContracts.deps.json
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\bin\Release\net7.0\ServicesContracts.dll
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\bin\Release\net7.0\ServicesContracts.pdb
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\bin\Release\net7.0\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\bin\Release\net7.0\Entities.pdb
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.csproj.AssemblyReference.cache
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.AssemblyInfoInputs.cache
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.AssemblyInfo.cs
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.csproj.CoreCompileInputs.cache
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.csproj.CopyComplete
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.dll
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\refint\ServicesContracts.dll
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ServicesContracts.pdb
+D:\.NET Core (Udemy)\12.xUnit\ServicesContracts\obj\Release\net7.0\ref\ServicesContracts.dll

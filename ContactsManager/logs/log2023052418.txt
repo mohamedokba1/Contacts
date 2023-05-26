@@ -1,0 +1,324 @@
+2023-05-24 18:02:16.699 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 18:02:16.883 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-24 18:02:16.894 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 18:02:16.899 +03:00 [INF] Hosting environment: Development
+2023-05-24 18:02:16.900 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-24 18:02:17.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-24 18:02:17.981 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-24 18:02:18.030 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:02:18.138 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:02:18.534 +03:00 [INF] Before action method executed
+2023-05-24 18:02:18.540 +03:00 [INF] Index action from persons controller
+2023-05-24 18:02:19.745 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-24 18:02:19.875 +03:00 [INF] PersonListActionFilter.OnActionExecuted
+2023-05-24 18:02:19.945 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:02:20.233 +03:00 [INF] Executed ViewResult - view Index executed in 294.3101ms.
+2023-05-24 18:02:20.238 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 2089.4962ms
+2023-05-24 18:02:20.241 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:02:20.247 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:02:19 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:02:20.251 +03:00 [INF] HTTP GET / responded 200 in 2274.8537 ms
+2023-05-24 18:02:20.295 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:02:20.301 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/ - - - 200 - text/html;+charset=utf-8 2375.5500ms
+2023-05-24 18:02:20.315 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:02:20.320 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 4.4455ms
+2023-05-24 18:02:20.380 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.0485ms
+2023-05-24 18:06:27.918 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 18:06:28.076 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-24 18:06:28.094 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 18:06:28.098 +03:00 [INF] Hosting environment: Development
+2023-05-24 18:06:28.102 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-24 18:06:28.589 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-24 18:06:28.643 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-24 18:06:28.684 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:06:28.795 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:06:29.030 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:06:29.035 +03:00 [INF] Index action from persons controller
+2023-05-24 18:06:29.915 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-24 18:06:30.035 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:06:30.100 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:06:30.339 +03:00 [INF] Executed ViewResult - view Index executed in 241.6566ms.
+2023-05-24 18:06:30.345 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 1542.7824ms
+2023-05-24 18:06:30.347 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:06:30.351 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:06:30 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:06:30.356 +03:00 [INF] HTTP GET / responded 200 in 1717.1307 ms
+2023-05-24 18:06:30.387 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:06:30.393 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 5.8267ms
+2023-05-24 18:06:30.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/ - - - 200 - text/html;+charset=utf-8 1810.8184ms
+2023-05-24 18:06:30.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:06:30.440 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2464ms
+2023-05-24 18:07:42.076 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 18:07:42.273 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-24 18:07:42.291 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 18:07:42.294 +03:00 [INF] Hosting environment: Development
+2023-05-24 18:07:42.294 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-24 18:07:43.218 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-24 18:07:43.290 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-24 18:07:43.351 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:07:43.443 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:07:43.727 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:07:46.681 +03:00 [INF] Index action from persons controller
+2023-05-24 18:07:51.734 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-24 18:08:11.260 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:08:25.268 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:08:26.038 +03:00 [INF] Executed ViewResult - view Index executed in 819.3857ms.
+2023-05-24 18:08:26.044 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 42597.6816ms
+2023-05-24 18:08:26.047 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:08:26.051 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:08:25 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:08:26.054 +03:00 [INF] HTTP GET / responded 200 in 42769.2835 ms
+2023-05-24 18:08:26.081 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/ - - - 200 - text/html;+charset=utf-8 42869.1546ms
+2023-05-24 18:08:26.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:08:26.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:08:26.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 4.5499ms
+2023-05-24 18:08:26.120 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.1648ms
+2023-05-24 18:08:36.396 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=Email&searchString=lw - -
+2023-05-24 18:08:36.399 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:08:36.402 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:08:36.408 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:08:36.417 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:08:41.200 +03:00 [INF] Index action from persons controller
+2023-05-24 18:08:43.831 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__searchString_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[Email]) > 0
+2023-05-24 18:08:56.875 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:09:03.484 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:09:31.288 +03:00 [INF] Executed ViewResult - view Index executed in 27804.1341ms.
+2023-05-24 18:09:31.301 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 54890.0953ms
+2023-05-24 18:09:31.313 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:09:31.315 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:09:30 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:09:31.316 +03:00 [INF] HTTP GET /Persons/Index responded 200 in 54917.0451 ms
+2023-05-24 18:09:31.321 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=Email&searchString=lw - - - 200 - text/html;+charset=utf-8 54925.7706ms
+2023-05-24 18:09:31.345 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:09:31.346 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 1.2056ms
+2023-05-24 18:09:31.368 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:09:31.390 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.1492ms
+2023-05-24 18:09:37.433 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index - -
+2023-05-24 18:09:37.435 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:09:37.438 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:11:47.132 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-24 18:11:47.364 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-24 18:11:47.390 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 18:11:47.392 +03:00 [INF] Hosting environment: Development
+2023-05-24 18:11:47.397 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-24 18:11:48.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-24 18:11:48.418 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-24 18:11:48.503 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:11:48.641 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:11:49.020 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:11:49.025 +03:00 [INF] Index action from persons controller
+2023-05-24 18:11:50.409 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-24 18:11:50.548 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:11:50.598 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:11:50.829 +03:00 [INF] Executed ViewResult - view Index executed in 231.7655ms.
+2023-05-24 18:11:50.835 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 2190.0431ms
+2023-05-24 18:11:50.838 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:11:50.842 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:11:50 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:11:50.845 +03:00 [INF] HTTP GET / responded 200 in 2436.6324 ms
+2023-05-24 18:11:50.876 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:11:50.881 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/ - - - 200 - text/html;+charset=utf-8 2523.7948ms
+2023-05-24 18:11:50.896 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:11:50.928 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 31.1757ms
+2023-05-24 18:11:50.929 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.5235ms
+2023-05-24 18:12:12.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=Email&searchString=lw - -
+2023-05-24 18:12:12.615 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:12:12.619 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:12:12.625 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:12:12.640 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:12:12.641 +03:00 [INF] Index action from persons controller
+2023-05-24 18:12:12.766 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@__searchString_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[Email]) > 0
+2023-05-24 18:12:12.771 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:12:12.772 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:12:12.817 +03:00 [INF] Executed ViewResult - view Index executed in 45.1855ms.
+2023-05-24 18:12:12.821 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 193.2241ms
+2023-05-24 18:12:12.826 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:12:12.827 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:12:12 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:12:12.828 +03:00 [INF] HTTP GET /Persons/Index responded 200 in 213.1576 ms
+2023-05-24 18:12:12.834 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=Email&searchString=lw - - - 200 - text/html;+charset=utf-8 222.9205ms
+2023-05-24 18:12:12.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:12:12.862 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:12:12.870 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 7.1889ms
+2023-05-24 18:12:12.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.7969ms
+2023-05-24 18:12:21.056 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=abcd&searchString=lw - -
+2023-05-24 18:12:21.060 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:12:21.063 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:12:21.065 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:12:21.071 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:12:21.072 +03:00 [INF] actual search by string is abcd
+2023-05-24 18:12:21.073 +03:00 [INF] Updated search by string is PersonName
+2023-05-24 18:12:21.074 +03:00 [INF] Index action from persons controller
+2023-05-24 18:12:21.171 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__searchString_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[PersonName]) > 0
+2023-05-24 18:12:21.176 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:12:21.178 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:12:21.201 +03:00 [INF] Executed ViewResult - view Index executed in 23.1483ms.
+2023-05-24 18:12:21.202 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 134.1825ms
+2023-05-24 18:12:21.204 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:12:21.205 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:12:20 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:12:21.206 +03:00 [INF] HTTP GET /Persons/Index responded 200 in 145.9318 ms
+2023-05-24 18:12:21.212 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=abcd&searchString=lw - - - 200 - text/html;+charset=utf-8 156.3445ms
+2023-05-24 18:12:21.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:12:21.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:12:21.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 0.8927ms
+2023-05-24 18:12:21.248 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.6564ms
+2023-05-24 18:13:54.684 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=abcd&searchString=lw - -
+2023-05-24 18:13:54.687 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:13:54.688 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:13:54.689 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:13:54.692 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:13:54.693 +03:00 [INF] actual search by string is abcd
+2023-05-24 18:13:54.694 +03:00 [INF] Updated search by string is PersonName
+2023-05-24 18:13:54.695 +03:00 [INF] Index action from persons controller
+2023-05-24 18:13:54.711 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__searchString_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[PersonName]) > 0
+2023-05-24 18:13:54.714 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:13:54.715 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:13:54.722 +03:00 [INF] Executed ViewResult - view Index executed in 6.3742ms.
+2023-05-24 18:13:54.723 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 31.3659ms
+2023-05-24 18:13:54.724 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:13:54.726 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:13:54 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:13:54.727 +03:00 [INF] HTTP GET /Persons/Index responded 200 in 39.7782 ms
+2023-05-24 18:13:54.732 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/Persons/Index?searchBy=abcd&searchString=lw - - - 200 - text/html;+charset=utf-8 48.1230ms
+2023-05-24 18:13:54.765 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:13:54.769 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:13:54.770 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 1.6123ms
+2023-05-24 18:13:54.794 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1301ms
+2023-05-24 18:13:58.532 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/Persons/Index - -
+2023-05-24 18:13:58.548 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+2023-05-24 18:13:58.549 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:13:58.550 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-24 18:13:58.552 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-24 18:13:58.553 +03:00 [INF] Index action from persons controller
+2023-05-24 18:13:58.564 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-24 18:13:58.569 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called
+2023-05-24 18:13:58.572 +03:00 [INF] Executing ViewResult, running view Index.
+2023-05-24 18:13:58.588 +03:00 [INF] Executed ViewResult - view Index executed in 15.8042ms.
+2023-05-24 18:13:58.592 +03:00 [INF] Executed action Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager) in 40.7387ms
+2023-05-24 18:13:58.594 +03:00 [INF] Executed endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-24 18:13:58.595 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 24 May 2023 15:13:58 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-05-24 18:13:58.596 +03:00 [INF] HTTP GET /Persons/Index responded 200 in 47.6893 ms
+2023-05-24 18:13:58.603 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/Persons/Index - - - 200 - text/html;+charset=utf-8 71.0888ms
+2023-05-24 18:13:58.637 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - -
+2023-05-24 18:13:58.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - -
+2023-05-24 18:13:58.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 10.2115ms
+2023-05-24 18:13:58.655 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.6098ms

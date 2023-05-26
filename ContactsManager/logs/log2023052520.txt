@@ -1,0 +1,36 @@
+2023-05-25 20:43:07.540 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-25 20:43:08.059 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-25 20:43:08.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-25 20:43:08.635 +03:00 [INF] Hosting environment: Development
+2023-05-25 20:43:08.718 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-25 20:43:12.007 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-25 20:43:12.116 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-25 20:43:12.215 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-25 20:43:12.358 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-25 20:43:13.527 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-25 20:44:30.051 +03:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-25 20:44:30.504 +03:00 [INF] Now listening on: http://localhost:5021
+2023-05-25 20:44:30.519 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-25 20:44:30.520 +03:00 [INF] Hosting environment: Development
+2023-05-25 20:44:30.521 +03:00 [INF] Content root path: D:\.NET Core (Udemy)\Contacts Manager\Contacts_Manager
+2023-05-25 20:44:31.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/ - -
+2023-05-25 20:44:31.413 +03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2023-05-25 20:44:31.473 +03:00 [INF] Executing endpoint 'Contacts_Manager.Controllers.PersonsController.Index (Contacts_Manager)'
+2023-05-25 20:44:31.584 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServicesContracts.Enums.SortOrderOptions) on controller Contacts_Manager.Controllers.PersonsController (Contacts_Manager).
+2023-05-25 20:44:31.878 +03:00 [INF] PersonsListActionFilter.OnActionExecuting called
+2023-05-25 20:44:31.882 +03:00 [INF] Index action from persons controller
+2023-05-25 20:44:33.660 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetter], [c].[CountryId], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryId]
+2023-05-25 20:44:33.878 +03:00 [INF] PersonsListActionFilter.OnActionExecuted called

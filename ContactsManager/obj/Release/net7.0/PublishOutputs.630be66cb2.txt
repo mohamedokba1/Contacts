@@ -1,0 +1,13 @@
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Contacts_Manager.exe
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\appsettings.json
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Contacts_Manager.dll
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Contacts_Manager.deps.json
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Contacts_Manager.runtimeconfig.json
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Contacts_Manager.pdb
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Entities.dll
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Services.dll
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\ServicesContracts.dll
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\ServicesContracts.pdb
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Services.pdb
+D:\.NET Core (Udemy)\12.xUnit\Contacts_Manager\obj\Release\net7.0\PubTmp\Out\Entities.pdb

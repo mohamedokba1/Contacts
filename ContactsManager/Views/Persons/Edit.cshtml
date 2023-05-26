@@ -1,0 +1,81 @@
+﻿@model PersonUpdateRequest
+@{
+    ViewBag.Title = "Edit Person";
+}
+<a asp-controller="Persons" asp-action="Index" class="mt-2"><i class="fa-sharp fa-solid fa-arrow-left fa-2xl"></i></a>
+<h3 class="w-50 m-auto">Update Person</h3>
+
+<div class="w-50 m-auto">
+    <form asp-controller="Persons" asp-action="Edit" method="post">
+        @*<div class="text-danger" asp-validation-summary="All"></div>*@
+        <input type="hidden" asp-for="PersonId"/>
+        <div class="form-group m-3">
+            <label class="fw-bold" for="PersonName">Person Name</label>
+            <input asp-for="PersonName" type="text" class="form-control" id="PersonName" name="PersonName" placeholder="Enter person name">
+            <span class="text-danger" asp-validation-for="PersonName"></span>
+        </div>
+        <div class="form-group m-3">
+            <label class="fw-bold" for="Email">Email</label>
+            <input asp-for="Email" type="email" class="form-control" id="Email" name="Email" placeholder="name@example.com">
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+        <div class="form-group m-3">
+            <label for="DateOfBirth">Date of Birth</label>
+            <input asp-for="DateOfBirth" type="date" class="form-control">
+            <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+        </div>
+        <div class="form-group m-3 d-flex">
+            <label class="fw-bold" for="Gender">Gender</label>
+            <div class="d-flex ms-3">
+                <div class="form-check">
+                    <input asp-for="PersonGender" type="radio" class="form-check-input" value="Male">
+                    <label class="form-check-label" for="Gender">Male</label>
+                </div>
+                <div class="form-check ms-2">
+                    <input asp-for="PersonGender" type="radio" value="Female" class="form-check-input">
+                    <label class="form-check-label" for="Gender">Female</label>
+                </div>
+            </div>
+            <span class="ms-2 text-danger" asp-validation-for="PersonGender"></span>
+        </div>
+       
+        <div class="form-group col-md-4 m-3">
+            <label class="fw-bold" for="CountryId">Country</label>
+            <select name="CountryId" id="CountryId" class="form-control" asp-items="@ViewBag.Countries">
+               
+            </select>
+            <span class="text-danger" asp-validation-for="CountryID"></span>
+        </div>
+        <div class="form-group m-3">
+            <label class="fw-bold" for="Address">Address</label>
+            <textarea asp-for="Address" type="text" class="form-control" id="Address" name="Address"></textarea>
+            <span class="text-danger" asp-validation-for="Address"></span>
+        </div>
+        <div class="form-check m-3">
+            <input type="checkbox" asp-for="ReceiveNewsLetter" class="form-check-input">
+            <label class="fw-bold form-check-label" asp-for="ReceiveNewsLetter">Receive NewsLetter</label>
+        </div>
+        <div class="w-50 m-auto">
+            <button type="submit" class="btn btn-warning w-100 p-2 fw-bold">Update</button>
+        </div>
+
+        @if(ViewBag.Errors != null)
+        {
+            <div class="text-danger">
+                <ul>
+                    @foreach(var error in ViewBag.Errors)
+                    {
+                       <li class="ms-2">@error</li>
+                    }
+                </ul>
+            </div>
+        }
+    </form>
+</div>
+
+@section scripts{
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" asp-fallback-test="window.jQuery" asp-fallback-src="~/JS/jQuery.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" asp-fallback-test="window.jquery.validate" asp-fallback-src="~/JS/jQuery-validate.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
+   

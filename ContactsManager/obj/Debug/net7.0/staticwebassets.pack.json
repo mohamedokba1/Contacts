@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\CSS\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\CSS\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\CSS\\all.min.css",
+      "PackagePath": "staticwebassets\\CSS\\all.min.css"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\CSS\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\CSS\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\JS\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\JS\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\JS\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\JS\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\JS\\jQuery-validate.js",
+      "PackagePath": "staticwebassets\\JS\\jQuery-validate.js"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\JS\\jQuery-validation-unobtrusive.js",
+      "PackagePath": "staticwebassets\\JS\\jQuery-validation-unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\JS\\jQuery.js",
+      "PackagePath": "staticwebassets\\JS\\jQuery.js"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Id": "D:\\.NET Core (Udemy)\\Contacts Manager\\Contacts_Manager\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Contacts_Manager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Contacts_Manager.props",
+      "PackagePath": "build\\Contacts_Manager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Contacts_Manager.props",
+      "PackagePath": "buildMultiTargeting\\Contacts_Manager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Contacts_Manager.props",
+      "PackagePath": "buildTransitive\\Contacts_Manager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
