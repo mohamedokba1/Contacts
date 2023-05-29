@@ -1,6 +1,6 @@
-﻿using Contacts_Manager.Controllers;
+﻿using UI.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
-using ServicesContracts.DTOs;
+using Core.DTOs;
 
 namespace Contacts_Manager.Filters.ActionFilters
 {

@@ -1,11 +1,11 @@
+D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
+D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
+D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.AssemblyReference.cache
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfoInputs.cache
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.AssemblyInfo.cs
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
-D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.deps.json
-D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.dll
-D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\bin\Debug\net7.0\ContactsManager.Core.pdb
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.dll
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\refint\ContactsManager.Core.dll
 D:\.NET Core (Udemy)\ContactsManagerSolution\ContactsManager.Core\obj\Debug\net7.0\ContactsManager.Core.pdb

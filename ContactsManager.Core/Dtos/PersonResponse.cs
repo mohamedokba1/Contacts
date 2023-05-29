@@ -1,8 +1,7 @@
-﻿using Entities;
-using ServicesContracts.Enums;
-using System.Runtime.CompilerServices;
+﻿using Core.Entities;
+using Core.Enums;
 
-namespace ServicesContracts.DTOs
+namespace Core.DTOs
 {
     public class PersonResponse
     {

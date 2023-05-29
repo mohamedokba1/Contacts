@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ServicesContracts;
+using Core.ServicesContracts;
 
-namespace Contacts_Manager.Controllers
+namespace UI.Controllers
 {
     public class CountriesController : Controller
     {

@@ -1,12 +1,12 @@
-using Services;
-using ServicesContracts;
+using Core.Services;
+using Core.ServicesContracts;
 using Microsoft.EntityFrameworkCore;
-using Entities;
-using RepositoryContracts;
+using Core.RepositoryContracts;
 using Repositories;
 using Microsoft.AspNetCore.HttpLogging;
 using Serilog;
 using ContactsManager.Middleware;
+using Infrastructure.Context;
 
 namespace Contacts_Manager
 {
@@ -24,7 +24,7 @@ namespace Contacts_Manager
             builder.Services.AddControllersWithViews();
 
             // Adding services to the IoC Container
-            builder.Services.AddScoped<IPersonService, PersonsService>();
+            builder.Services.AddScoped<IPersonsService, PersonsService>();
             builder.Services.AddTransient<ICountriesRepository, CountriesRepository>();
             builder.Services.AddTransient<IPersonsRepository, PersonsRepository>();
             builder.Services.AddScoped<ICountriesService, CountriesService>();

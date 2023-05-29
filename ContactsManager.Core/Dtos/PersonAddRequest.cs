@@ -1,8 +1,8 @@
-﻿using Entities;
-using ServicesContracts.Enums;
+﻿using Core.Entities;
+using Core.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace ServicesContracts.DTOs
+namespace Core.DTOs
 {
     /// <summary>
     /// Act as a DTO for inserting a new Person

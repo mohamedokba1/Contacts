@@ -1,5 +1,5 @@
-﻿using Entities;
-namespace ServicesContracts.DTOs
+﻿using Core.Entities;
+namespace Core.DTOs
 {
     /// <summary>
     /// Dto class used as a return type of most of CountriesSevice methods

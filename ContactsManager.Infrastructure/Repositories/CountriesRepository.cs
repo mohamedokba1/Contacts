@@ -1,5 +1,6 @@
-﻿using RepositoryContracts;
-using Entities;
+﻿using Core.RepositoryContracts;
+using Core.Entities;
+using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repositories

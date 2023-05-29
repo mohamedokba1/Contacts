@@ -1,7 +1,7 @@
-﻿using Entities;
+﻿using Core.Entities;
 using System.Linq.Expressions;
 
-namespace RepositoryContracts
+namespace Core.RepositoryContracts
 {
     /// <summary>
     /// Represents data access logic for Person entity
@@ -13,7 +13,7 @@ namespace RepositoryContracts
         /// </summary>
         /// <param name="person">Person object to add it to the data store</param>
         /// <returns>Object of the added person</returns>
-        Task<Person> AddPeson(Person person);
+        Task<Person> AddPerson(Person person);
 
         /// <summary>
         /// Return all persons from the data store

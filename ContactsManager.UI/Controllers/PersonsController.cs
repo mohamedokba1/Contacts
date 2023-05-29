@@ -1,22 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ServicesContracts;
-using ServicesContracts.DTOs;
-using ServicesContracts.Enums;
+using Core.ServicesContracts;
+using Core.DTOs;
+using Core.Enums;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Rotativa.AspNetCore;
 using Rotativa.AspNetCore.Options;
 using Contacts_Manager.Filters.ActionFilters;
 
-namespace Contacts_Manager.Controllers
+namespace UI.Controllers
 {
     [Route("[controller]")]
     public class PersonsController : Controller
     {
-        private readonly IPersonService _personService;
+        private readonly IPersonsService _personService;
         private readonly ICountriesService _countriesService;
         private readonly ILogger<PersonsController> _logger;
 
-        public PersonsController(IPersonService personService, ICountriesService countriesService, ILogger<PersonsController> logger)
+        public PersonsController(IPersonsService personService, ICountriesService countriesService, ILogger<PersonsController> logger)
         {
             _personService = personService;
             _countriesService = countriesService;

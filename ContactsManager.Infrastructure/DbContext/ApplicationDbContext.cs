@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using Microsoft.Data.SqlClient;
+using Core.Entities;
 
-namespace Entities
+namespace Infrastructure.Context
 {
     public class ApplicationDbContext : DbContext
     {

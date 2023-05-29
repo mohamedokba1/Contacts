@@ -1,5 +1,5 @@
-﻿using Entities;
-namespace RepositoryContracts
+﻿using Core.Entities;
+namespace Core.RepositoryContracts
 {
     /// <summary>
     /// Represents data access logic for country entity

@@ -1,4 +1,4 @@
-﻿namespace ServicesContracts.Enums
+﻿namespace Core.Enums
 {
     public enum SortOrderOptions
     {

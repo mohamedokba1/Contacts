@@ -1,20 +1,20 @@
-﻿using Entities;
-using Services.Helper;
-using ServicesContracts;
-using ServicesContracts.DTOs;
-using ServicesContracts.Enums;
+﻿using Core.Entities;
+using Core.Helper;
+using Core.ServicesContracts;
+using Core.DTOs;
+using Core.Enums;
 using CsvHelper;
 using System.Globalization;
 using CsvHelper.Configuration;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System.Drawing;
-using RepositoryContracts;
+using Core.RepositoryContracts;
 using Serilog;
 
-namespace Services
+namespace Core.Services
 {
-    public class PersonsService : IPersonService
+    public class PersonsService : IPersonsService
     {
         private readonly IPersonsRepository _personsRepository;
         private readonly IDiagnosticContext _diagnosticContext;
@@ -38,7 +38,7 @@ namespace Services
             //generate new Guid
             person.PersonID = Guid.NewGuid();
             //_db.InsertPerson(person);
-            await _personsRepository.AddPeson(person);
+            await _personsRepository.AddPerson(person);
 
             return person.ToPersonResponse();
         }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
-using ServicesContracts.DTOs;
+using Core.DTOs;
 
-namespace ServicesContracts
+namespace Core.ServicesContracts
 {
     /// <summary>
     /// Contains the business logic for manipulating Country Entities

@@ -1,5 +1,6 @@
-﻿using RepositoryContracts;
-using Entities;
+﻿using Core.RepositoryContracts;
+using Core.Entities;
+using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -12,7 +13,7 @@ namespace Repositories
         {
             _db = db;
         }
-        public async Task<Person> AddPeson(Person person)
+        public async Task<Person> AddPerson(Person person)
         {
             _db.Persons.Add(person);
             await _db.SaveChangesAsync();

@@ -1,11 +1,11 @@
-﻿using Entities;
+﻿using Core.Entities;
 using Microsoft.AspNetCore.Http;
 using OfficeOpenXml;
-using RepositoryContracts;
-using ServicesContracts;
-using ServicesContracts.DTOs;
+using Core.RepositoryContracts;
+using Core.ServicesContracts;
+using Core.DTOs;
 
-namespace Services
+namespace Core.Services
 {
     public class CountriesService : ICountriesService
     {
